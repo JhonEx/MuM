@@ -1,0 +1,3 @@
+This solution is not correct because the code wants to use Employee as object key
+but the Employee class not immutable. In order to make this hashMap works correctly,
+we have to make Employee class immutable.
